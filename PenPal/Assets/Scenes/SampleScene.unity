@@ -238,6 +238,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TitleText
       objectReference: {fileID: 0}
+    - target: {fileID: 1862027848365875122, guid: 37752e409770144e89d787d990a0cbc6,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 1862027848365875122, guid: 37752e409770144e89d787d990a0cbc6,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 110
+      objectReference: {fileID: 0}
     - target: {fileID: 1862027848382031579, guid: 37752e409770144e89d787d990a0cbc6,
         type: 3}
       propertyPath: m_LocalPosition.x
