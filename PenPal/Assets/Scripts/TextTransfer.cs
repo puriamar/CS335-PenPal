@@ -15,6 +15,10 @@ public class TextTransfer : MonoBehaviour
     }
 
     public void clearText(){
-        textDisplay.GetComponent<Text>().text = "";
+        // textDisplay.GetComponent<Text>().text = "";
+        text = "";
+        text = inputField.GetComponent<Text>().text;
+
+
     }
 }
