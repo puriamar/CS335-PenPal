@@ -128,14 +128,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 451243985, guid: 37752e409770144e89d787d990a0cbc6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1862027847111413704, guid: 37752e409770144e89d787d990a0cbc6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 1588099141, guid: 37752e409770144e89d787d990a0cbc6, type: 3}
+      propertyPath: m_LineType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1862027848382031579, guid: 37752e409770144e89d787d990a0cbc6,
         type: 3}
