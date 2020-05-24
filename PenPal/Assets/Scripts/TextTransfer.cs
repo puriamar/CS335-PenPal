@@ -12,11 +12,11 @@ public class TextTransfer : MonoBehaviour {
         emailContent = inputField.GetComponent<Text> ().text;
         string path = Application.dataPath + "/Inbox/ReceivedLetter.txt";
         if (!File.Exists (path)) {
-            File.AppendAllText (path, "Sent on: " + System.DateTime.Now + "\n");
+            File.AppendAllText (path, "Sent on:" + System.DateTime.Now + "\n\n");
             File.AppendAllText (path, emailContent);
         } else {
             File.WriteAllText (path, "");
-            File.AppendAllText (path, "Sent on: " + System.DateTime.Now + "\n");
+            File.AppendAllText (path, "Sent on:" + System.DateTime.Now + "\n\n");
             File.AppendAllText (path, emailContent);
         }
     }
