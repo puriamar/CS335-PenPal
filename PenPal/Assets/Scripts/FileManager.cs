@@ -12,8 +12,8 @@ public class FileManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        fileName = "Letter1.txt";
-        myfilepath = Application.dataPath + "/" + fileName;
+        fileName = "ReceivedLetter.txt";
+        myfilepath = Application.dataPath + "/Inbox/" + fileName;
 
     }
 
