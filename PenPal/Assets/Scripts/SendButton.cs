@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class SendButton : MonoBehaviour {
 
-    public GameObject Panel;
-    public GameObject Panel2;
+    public GameObject panelToOpen;
+    public GameObject panelToClose;
 
     private void OpenPanel () {
-        if (Panel2 != null) {
-            Panel2.SetActive (true);
+        if (panelToOpen != null) {
+            panelToOpen.SetActive (true);
         }
     }
 
@@ -17,9 +17,9 @@ public class SendButton : MonoBehaviour {
         Invoke ("MyCoroutine", 0.5f);
     }
 
-    public void MyCoroutine () {
-        if (Panel != null) {
-            Panel.SetActive (false);
+    private void MyCoroutine () {
+        if (panelToClose != null) {
+            panelToClose.SetActive (false);
         }
         OpenPanel ();
     }
