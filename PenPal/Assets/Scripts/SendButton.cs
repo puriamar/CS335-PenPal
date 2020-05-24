@@ -17,7 +17,7 @@ public class SendButton : MonoBehaviour {
         Invoke ("MyCoroutine", 0.5f);
     }
 
-    public void MyCoroutine () {
+    private void MyCoroutine () {
         if (Panel != null) {
             Panel.SetActive (false);
         }
