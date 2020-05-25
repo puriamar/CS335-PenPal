@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class HidePanel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject Panel;
 
-    // Update is called once per frame
-    void Update()
+    public void ClosePanel()
     {
-        
+        if (Panel != null)
+        {
+            Panel.SetActive(false);
+        }
     }
 }
+

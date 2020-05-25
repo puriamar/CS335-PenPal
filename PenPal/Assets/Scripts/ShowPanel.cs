@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ShowPanel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject Panel;
 
-    // Update is called once per frame
-    void Update()
+    public void OpenPanel()
     {
-        
+        if (Panel != null)
+        {
+            Panel.SetActive(true);
+        }
     }
 }
