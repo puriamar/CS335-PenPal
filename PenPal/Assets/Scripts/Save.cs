@@ -5,43 +5,46 @@ using UnityEngine.UI;
 
 public class Save : MonoBehaviour
 {
-    public string textName;
+   
     public InputField inputField_Name;
-
-
-    public string textBio;
     public InputField inputField_Bio;
-
-
-    public string textInterests;
     public InputField inputField_Interests;
+
+    public void Name()
+    {
+        PlayerPrefs.SetString("textNameKey", inputField_Name.text);
+    }
+
+    public void Bio()
+    {
+        PlayerPrefs.SetString("textBioKey", inputField_Bio.text);
+    }
+
+    public void interests()
+    {
+        PlayerPrefs.SetString("textInterestsKey", inputField_Interests.text);
+    }
+
 
     private void Start()
     {
-        textName = PlayerPrefs.GetString("textNameKey", textName);
-        inputField_Name.text = textName;
+        if (PlayerPrefs.HasKey("textNameKey"))
+        {
+            inputField_Name.text = PlayerPrefs.GetString("textNameKey");
+        }
 
-        textBio = PlayerPrefs.GetString("textBioKey", textBio);
-        inputField_Bio.text = textName;
-
-        textInterests = PlayerPrefs.GetString("textInterestsKey", textInterests);
-        inputField_Interests.text = textInterests;
+        if (PlayerPrefs.HasKey("textBioKey"))
+        {
+            inputField_Bio.text = PlayerPrefs.GetString("textBioKey");
+        }
+        if (PlayerPrefs.HasKey("textInterestsKey"))
+        {
+            inputField_Interests.text = PlayerPrefs.GetString("textInterestsKey");
+        }
     }
-
-    public void SaveData()
-    {
-        textName = inputField_Name.text;
-        PlayerPrefs.SetString("textNameKey", textName);
-
-        textBio = inputField_Bio.text;
-        PlayerPrefs.SetString("textBioKey", textBio);
-
-        textInterests = inputField_Interests.text;
-        PlayerPrefs.SetString("textInterestsKey", textInterests);
-    }
-    public void NextPanel()
-    {
-
-    }
-    
 }
+
+
+       
+     
+

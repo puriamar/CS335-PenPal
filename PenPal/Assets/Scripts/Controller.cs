@@ -17,15 +17,20 @@ public class Controller : MonoBehaviour
 
         SaveManager.Save(data);
     }
-    public void Awake()
+    public void Load()
     {
    
         UserControl data = SaveManager.Load();
 
-      
+        
        Text[] txt = FindObjectsOfType<Text>();
+        //Text[] reverseTxt = new Text[txt.Length];
         for (var i = 0; i < txt.Length; i++)
             txt[i].text = data.txtInput[i];
+
+        // reverseTxt[txt.Length - 1 - i].text = data.txtInput[i];
+        // txt[i].text = data.txtInput[i];
+
     }
 }
 

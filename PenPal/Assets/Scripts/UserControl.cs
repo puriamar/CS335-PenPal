@@ -5,9 +5,10 @@ using System.Collections.Generic;
 public class UserControl
 {
     public List<string> txtInput;
+    private List<string> temp;
 
     public UserControl(List<string> txtInput)
-    {
+    { 
         this.txtInput = txtInput;
     }
 }
