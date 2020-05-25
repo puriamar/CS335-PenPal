@@ -20,7 +20,7 @@ public class Save : MonoBehaviour
         PlayerPrefs.SetString("textBioKey", inputField_Bio.text);
     }
 
-    public void interests()
+    public void Interests()
     {
         PlayerPrefs.SetString("textInterestsKey", inputField_Interests.text);
     }
