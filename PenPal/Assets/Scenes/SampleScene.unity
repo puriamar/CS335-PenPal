@@ -541,6 +541,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3705565898106392616, guid: 37752e409770144e89d787d990a0cbc6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4758231230742226604, guid: 37752e409770144e89d787d990a0cbc6,
         type: 3}
       propertyPath: inputField
