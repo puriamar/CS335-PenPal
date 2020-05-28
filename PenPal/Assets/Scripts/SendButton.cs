@@ -14,7 +14,7 @@ public class SendButton : MonoBehaviour {
     }
 
     public void ClosePanel () {
-        Invoke ("MyCoroutine", 0.5f);
+        Invoke ("MyCoroutine", 0.45f);
     }
 
     private void MyCoroutine () {
