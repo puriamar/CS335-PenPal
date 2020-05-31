@@ -45,4 +45,9 @@ public class UISaveLoad : MonoBehaviour
     {
         currentPersonalData.userInterests = interests;
     }
+
+    public void Start()
+    {
+        LoadData();
+    }
 }
