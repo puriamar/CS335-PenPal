@@ -1,0 +1,9 @@
+﻿{
+    "userName":"Max Warren",
+    "userBio":"I grew up in the suburbs of Chicago",
+    "userInterests":"I like to play soccer and watch anime",
+    "userID":0
+
+
+
+}
