@@ -1,9 +1,77 @@
 ﻿{
-  "directories": [
-    "Saves/",
-    "Saves/Save1/",
-    "Saves/Save2/",
-    "Saves/Save3/",
-    "Saves/Save4/"
-  ]
+    "AllPersonalData":
+    [
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        },
+        {
+            "tempUserName": "Max Warren",
+            "tempUserBio": "This is my bio",
+            "tempUserInterests": "These are my interests"
+        }
+    ]
 }

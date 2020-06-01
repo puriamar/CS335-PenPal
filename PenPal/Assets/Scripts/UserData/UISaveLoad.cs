@@ -15,6 +15,7 @@ public class UISaveLoad : MonoBehaviour
 
     [SerializeField] PersonalData currentPersonalData = new PersonalData();
 
+    
     public void SaveData()
     {
         SaveLoadPersonalData.SaveData(currentPersonalData);
@@ -29,6 +30,8 @@ public class UISaveLoad : MonoBehaviour
         nameText.text = currentPersonalData.userName;
         bioText.text = currentPersonalData.userBio;
         interestsText.text = currentPersonalData.userInterests;
+
+        
     }
 
     public void SetUserName(string name)
@@ -45,6 +48,9 @@ public class UISaveLoad : MonoBehaviour
     {
         currentPersonalData.userInterests = interests;
     }
+
+
+   
 
     public void Start()
     {

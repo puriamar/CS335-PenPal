@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 //IMPORTANT MAX you need to do a better job of labeling your shite!!!
 
 /*

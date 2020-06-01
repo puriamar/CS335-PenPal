@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class UserLoader : MonoBehaviour
 {
+    /*
     public Dictionary<int, User> userData;
     public List<User> userList; // change this later because it uses double the memory
     //called before start
@@ -44,4 +45,6 @@ public class UserLoader : MonoBehaviour
         }
       
     }
+    */
 }
+
